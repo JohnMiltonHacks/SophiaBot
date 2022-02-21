@@ -437,14 +437,14 @@ def sophia_about_callback(update, context):
         )
     elif query.data == "sophia_credit":
         query.message.edit_text(
-            text=f"*Credit For Sophia's Devs*\n"
-            f"\nHere Some Developers Helping in Making The Sophia Bot",
+            text=f"*Credit For bot Devs*\n"
+            f"\nHere Some Developers Helping in Making This Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="t.me/dihanrandila"),
-                    InlineKeyboardButton(text="Inuka", url="t.me/InukaASiTH"),
+                    InlineKeyboardButton(text="Dihan", url="t.me/XGroup_owner_Bot"),
+                    InlineKeyboardButton(text="Inuka", url="t.me/XGroup_owner_Bot"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -474,15 +474,15 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                    InlineKeyboardButton(text="🙋‍♀️ About Me", callback_data="sophia_"),
+                    InlineKeyboardButton(text=" About", callback_data="sophia_"),
                     InlineKeyboardButton(text="❓ Basic Help", callback_data="sophia_basichelp"),
                   ],
                   [
-                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
-                    InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
+                    InlineKeyboardButton(text=" Channel❤ ", url=f"https://t.me/AllFreeModApks"),
+                    InlineKeyboardButton(text="Group📄 ", url=f"https://t.me/Free_Modded"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="Join", url=f"https://t.me/AllFreeModApks"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
